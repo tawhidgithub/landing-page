@@ -1,4 +1,5 @@
 import React from "react";
+import MenuItem from "../Header/Component/manuItem";
 
 const Footer = () => {
   return (
@@ -10,36 +11,11 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <nav className="space-x-4 text-gray-300">
-            <a
-              href="#home"
-              className="hover:text-white transition-colors duration-300"
-            >
-              Home
-            </a>
-            <a
-              href="#features"
-              className="hover:text-white transition-colors duration-300"
-            >
-              Features
-            </a>
-            <a
-              href="#demos"
-              className="hover:text-white transition-colors duration-300"
-            >
-              Demos
-            </a>
-            <a
-              href="#pricing"
-              className="hover:text-white transition-colors duration-300"
-            >
-              Pricing
-            </a>
-            <a
-              href="#contact"
-              className="hover:text-white transition-colors duration-300"
-            >
-              Contact
-            </a>
+            <MenuItem itemText={"Home"} link={"#home"} />
+            <MenuItem itemText={"Features"} link={"#features"} />
+            <MenuItem itemText={"Demos"} link={"#demos"} />
+            <MenuItem itemText={"Pricing"} link={"#pricing"} />
+            <MenuItem itemText={"Contact"} link={"#contact"} />
           </nav>
         </div>
 
@@ -76,36 +52,16 @@ const Footer = () => {
             <h3 className="font-semibold mb-2">Useful Links</h3>
             <ul className="text-gray-300 space-y-1">
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-300"
-                >
-                  Privacy Policy
-                </a>
+                <MenuItem itemText={"Privacy Policy"} link={"#"} />
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-300"
-                >
-                  Terms of Service
-                </a>
+                <MenuItem itemText={"Terms of Service"} link={"#"} />
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-300"
-                >
-                  Support Center
-                </a>
+                <MenuItem itemText={" Support Center"} link={"#"} />
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-300"
-                >
-                  FAQs
-                </a>
+                <MenuItem itemText={"FAQs"} link={"#"} />
               </li>
             </ul>
           </div>

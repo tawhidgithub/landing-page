@@ -1,13 +1,13 @@
 import "./App.css";
 import { Layout } from "antd";
-import Header from "./Page Component/Header/header";
-import FeatureSection from "./Page Component/heroSection/Component/FeatureSection";
-import HeroSection from "./Page Component/heroSection/HeroSection";
-import ThemeSection from "./Page Component/heroSection/Component/ThemeSection";
-import UserSaySection from "./Page Component/heroSection/Component/UserSaySection";
-import PricingSection from "./Page Component/heroSection/Component/PricingSection";
-import GetStartedSection from "./Page Component/heroSection/Component/GetStartedSection";
-import Footer from "./Page Component/Footer/Foorter";
+import HeroSection from "./Section Component/heroSection/Component/HeroSection";
+import FeatureSection from "./Section Component/Features/FeatureSection";
+import ThemeSection from "./Section Component/Theam/ThemeSection";
+import UserSaySection from "./Section Component/User Say/UserSaySection";
+import PricingSection from "./Section Component/Pricing/PricingSection";
+import GetStartedSection from "./Section Component/Get Started/GetStartedSection";
+import Header from "./Section Component/Header/header";
+import Footer from "./Section Component/Footer/Foorter";
 
 function App() {
   return (

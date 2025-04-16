@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonComponent from "../../Component/Button/ButtonComponent";
 
 const GetStartedSection = () => {
   return (
@@ -10,9 +11,17 @@ const GetStartedSection = () => {
           flexible WordPress themes. Experience seamless design and unmatched
           performance.
         </p>
-        <button className="bg-black cursor-pointer text-white px-8 py-4 rounded-full hover:bg-gray-800 transition-colors duration-300">
-          Start Your Journey
-        </button>
+
+        <ButtonComponent
+          btnText={"Start Your Journey"}
+          borderRadius="50"
+          py="16"
+          px="30"
+          btnColor="#000"
+          hoverColor="#1F2937"
+          onClick={()=>{}}
+          
+        />
       </div>
     </section>
   );

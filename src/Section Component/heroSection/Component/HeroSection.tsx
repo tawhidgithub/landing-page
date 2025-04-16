@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonComponent from "../../../Component/Button/ButtonComponent";
 
 const HeroSection = () => {
   return (
@@ -11,12 +12,12 @@ const HeroSection = () => {
         WordPress themes.
       </p>
       <div className="space-x-4">
-        <button className="bg-[#FFDDAE] text-black px-6 py-3 rounded-lg hover:bg-[#FFCC88] transition-colors duration-300">
-          Live Demo
-        </button>
-        <button className="border border-[#FFDDAE] text-[#FFDDAE] px-6 py-3 rounded-lg hover:bg-[#FFDDAE] hover:text-black transition-colors duration-300">
-          Buy Now
-        </button>
+        <ButtonComponent btnText={"Live Demo"} />
+        <ButtonComponent
+          btnText={" Buy Now"}
+          isBorderButton={true}
+          btnColor="#FFDDAE"
+        />
       </div>
     </section>
   );
